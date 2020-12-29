@@ -10,6 +10,10 @@ public class Main {
 
         System.out.println(weGaanPrinten);
 
+        weGaanPrinten = deskJet1.printTask2();
+
+        System.out.println(weGaanPrinten);
+
 
     }
 }
