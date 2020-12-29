@@ -1,5 +1,3 @@
-package com.company;
-
 public class Printer {
     final private String backSender;
 
@@ -11,5 +9,7 @@ public class Printer {
     public String printTask1 () {
         return  backSender;
     }
+
+    public String printTask2 () {return backSender + " HELP " + backSender;}
 
 }
